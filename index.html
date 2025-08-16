@@ -21,52 +21,52 @@
               <div class="row">
                   <div class="col-lg-5">
                      <label for="inputCard" class="form-label">Card #</label>
-                     <input type="number" class="form-control" placeholder="XXXX-XXXX-XXXX-XXXX" aria-label="Card">
+                     <input type="number" id="inputCard" class="form-control" placeholder="XXXX-XXXX-XXXX-XXXX" aria-label="Card">
                   </div>
                   <div class="col-sm">
                      <label for="inputCvc" class="form-label">CVC #</label>
-                     <input type="number" class="form-control" placeholder="000" aria-label="CVC">
+                     <input type="number" id="inputCvc" class="form-control" placeholder="000" aria-label="CVC">
                   </div>
                   <div class="col-sm">
                     <label for="inputAmount" class="form-label">Amount</label>
                     <div class="input-group">
                      <span class="input-group-text" id="basic-addon3">$</span>
-                     <input type="number" class="form-control" placeholder="Amount" aria-describedby="basic-addon3 basic-addon4">
+                     <input type="number" id="inputAmount" class="form-control" placeholder="Amount" aria-describedby="basic-addon3 basic-addon4">
                    </div>
                  </div>
                </div>
              <div class="row py-3">
                <div class="col">
                       <div class="mb-3">
-                         <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                         <input type="fname" class="form-control">
+                         <label for="firstName" class="form-label">First Name</label>
+                         <input type="text" id="firstName" class="form-control">
                       </div>
                        <div class="mb-3">
-                          <label for="exampleFormControlInput1" class="form-label">City</label>
-                          <input type="city" class="form-control" >
+                          <label for="city" class="form-label">City</label>
+                          <input type="text" id="city" class="form-control" >
                         </div>
                    <span class="badge bg-secondary pt-3">
                         <div class="form-check form-check-inline">
                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                           <i class="fa-brands fa-cc-mastercard fa-xl"></i>
+                           <label for="inlineRadio1"><i class="fa-brands fa-cc-mastercard fa-xl"></i></label>
                         </div>
                         <div class="form-check form-check-inline">
                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                           <i class="fa-brands fa-cc-visa fa-xl"></i>
+                           <label for="inlineRadio2"><i class="fa-brands fa-cc-visa fa-xl"></i></label>
                         </div>
                        <div class="form-check form-check-inline">
                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                          <i class="fa-brands fa-cc-diners-club fa-xl"></i>
+                         <label for="inlineRadio3"><i class="fa-brands fa-cc-diners-club fa-xl"></i></label>
                         </div>
                        <div class="form-check form-check-inline">
                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                          <i class="fa-brands fa-cc-amex fa-xl"></i>
+                          <label for="inlineRadio4"><i class="fa-brands fa-cc-amex fa-xl"></i></label>
                        </div>
                     </span>
                </div>
              <div class="col">
-                <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                    <input type="lname" class="form-control">
+                <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" id="lastName" class="form-control">
                       <div class="row py-2">
                           <div class="col-md-8">
                              <label for="inputState" class="form-label">State</label>
@@ -77,11 +77,11 @@
                            </div>
                             <div class="col-md-4">
                               <label for="inputZip" class="form-label">Zip</label>
-                              <input type="number" class="form-control" id="inputZip">
+                              <input type="number" id="inputZip" class="form-control">
                             </div>
                       </div>
                       <div class="mb-3">
-                         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                         <label for="textarea1" class="form-label">Message</label>
                          <textarea class="form-control" id="textarea1" rows="3"></textarea>
                          <div id="addNote" class="form-text"> Add any notes here!</div>
                       </div>
